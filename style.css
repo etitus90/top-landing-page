@@ -28,7 +28,8 @@ footer,
     }
 
 .hero-content h1,
-.info h2 {
+.info h2,
+.quote-source {
     font-weight: 900;
 }
 
@@ -60,6 +61,10 @@ button {
 
 .quote-container {
     background-color: #E5E7EB;
+}
+
+.quote-source {
+    font-size: 24px;
 }
 
 /* Navigation */
@@ -121,6 +126,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15px;
 }
 
 .info-content {
@@ -142,6 +148,18 @@ header {
     align-items: center;
     width: 150px;
     margin: 0 30px;
+}
+
+.quote-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-source {
+    align-self: flex-end;
+    margin-top: 0;
 }
 
 footer {
