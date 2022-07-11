@@ -37,12 +37,12 @@ footer,
 .hero-content h1,
 .placeholder-img,
 footer,
-button {
+button,
+.calltoaction {
     color: #F9FAF8;
 }
 
 button {
-    background: #3882F6;
     font-weight: 900;
     padding: 8px 25px;
     border: none;
@@ -65,6 +65,21 @@ button {
 
 .quote-source {
     font-size: 24px;
+}
+
+.calltoaction,
+button {
+    background: #3882F6;
+}
+
+.calltoaction {
+    padding: 50px 100px;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.signup-btn {
+    border: 2px solid #E5E7EB;
 }
 
 /* Navigation */
@@ -148,6 +163,8 @@ header {
     align-items: center;
     width: 150px;
     margin: 0 30px;
+    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .quote-container {
@@ -160,6 +177,25 @@ header {
 .quote-source {
     align-self: flex-end;
     margin-top: 0;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.calltoaction {
+    display: flex;
+    align-items: center;
+}
+
+.cta-text h3,
+.cta-text p {
+    margin: 0;
 }
 
 footer {
