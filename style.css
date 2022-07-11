@@ -2,11 +2,35 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Color Scheme */
+
 header,
 footer,
 .hero {
     background-color: #1F2937;
 }
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-content p,
+.nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo,
+.hero-content h1 {
+    color: #F9FAF8;
+}
+
+/* Page Layout */
 
 .footer {
     display: flex;
