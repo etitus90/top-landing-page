@@ -1,13 +1,16 @@
-html {
+html,
+body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
-/* Color Scheme */
+/* Color Scheme & Typography*/
 
 header,
 footer,
 .hero {
     background-color: #1F2937;
+    padding: 0 250px;
 }
 
 .logo {
@@ -26,15 +29,61 @@ footer,
 }
 
 .logo,
-.hero-content h1 {
+.hero-content h1,
+.placeholder-img,
+footer,
+button {
     color: #F9FAF8;
+}
+
+button {
+    background: #3882F6;
+    font-weight: 900;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Navigation */
+
+.nav {
+    list-style: none;
+    display: flex;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-left: 15px;
 }
 
 /* Page Layout */
 
-.footer {
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.placeholder-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #F9FAF8;
+    width: 50%;
+    background-color: gray;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
